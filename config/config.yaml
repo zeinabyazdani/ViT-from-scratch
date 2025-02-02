@@ -1,0 +1,22 @@
+SEED: 123
+DIR_TRAIN : data\dataset\cifar10\\train
+DIR_TEST  : data\dataset\cifar10\\test
+partition: False
+batch_size: 256
+epochs: 30
+learning_rate: 0.001
+gamma: 0.2
+step_size: 10
+ckpt_save_freq: 10
+ckpt_save_path: ./
+ckpt_path: ./
+report_path: ./
+
+image_size: 32
+patch_size: 2
+d_model: 128
+d_hidden: 128
+num_heads: 8
+num_layers: 4
+num_classes: 10
+mlp_filters: 128
